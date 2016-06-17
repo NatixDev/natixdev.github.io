@@ -1,0 +1,475 @@
+body {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  color: #555555;
+}
+
+a {
+  color:#ecf0f1;
+}
+
+p {
+  font-size: 16px;
+}
+
+h1,
+h2 {
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 34px;
+  padding-bottom: 0px;
+  font-weight: 600;
+}
+
+
+/* NAVIGATION START */
+
+.navbar {
+  background-color: rgba(240, 240, 240, 0.95);
+  padding-left: 30px;
+  padding-right: 10%;
+}
+
+.navbar-brand {
+  color: rgba(0, 0, 0, 0.7) !important;
+  font-weight: 600;
+  padding: 20px;
+  font-family: 'Pacifico', cursive;
+  font-size: 22px;
+}
+
+.nav li {
+  margin-left: 0px;
+  padding: 5px 20px 5px 20px;
+}
+
+.nav li:hover {
+  background-color: white;
+  color: black !important;
+}
+
+.nav a {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.nav a:hover {
+  color: black !important;
+}
+
+
+/* NAVIGATION END */
+
+
+/* HEADER START */
+
+.header {
+  margin-top: 60px;
+  background: url("http://image.noelshack.com/fichiers/2016/08/1456500414-apple-691798.jpg") no-repeat fixed;
+  background-size: cover;
+  height: 850px;
+}
+
+.header h1,
+h2 {
+  text-shadow: 1px 1px 1px #000;
+  color: #ecf0f1;
+}
+
+.header h1 {
+  font-size: 80px;
+  text-transform: uppercase;
+}
+
+.header h2 {
+  font-size: 50px;
+}
+
+.intro {
+  padding-top: 20%;
+  padding-bottom: 20%;
+  text-align: center;
+}
+
+.social li {
+  padding: 10px;
+}
+
+
+/* HEADER END */
+
+
+/* INFO START */
+
+.info {
+  height: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.info img {
+  width: 150px;
+}
+
+.info h3 {
+  padding-top: 20px;
+}
+
+.info h4 {
+  line-height: 40px;
+  border: 3px grey solid;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 0;
+}
+
+.info .col-xs-12, col-md-4 {
+  padding-top: 40px;
+}
+
+.info hr {
+  border-top: 1px solid #969696;
+}
+
+
+/* INFO END */
+
+
+/* PORTFOLIO START */
+
+#portfolio {
+  height: auto;
+  background-color: #3498db;
+  padding-top: 60px;
+  color: #ecf0f1;
+}
+
+#portfolio .row-port {
+  padding: 50px 0 0 0;
+}
+
+#portfolio ul {
+  margin-bottom: 0;
+}
+
+.port {
+  display: block;
+  position: relative;
+  height: 300px;
+  padding: 0;
+}
+
+.port .port-hover {
+  background: rgba(0, 0, 0, .7);
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  opacity: 0;
+  transition: all ease .5s;
+  -webkit-transition: all ease .5s;
+  -moz-transition: all ease .5s,
+}
+
+.port .port-hover .hover-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: #fff;
+}
+
+.port .port-hover:hover {
+  opacity: 1;
+}
+
+.port:hover {
+  transition: 0.5s;
+  box-shadow: rgba(0, 0, 0, 0.9);
+}
+
+.p1,
+.p2,
+.p3,
+.p4,
+.p5,
+.p6 {
+  height: 300px;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+/* IMAGE START */
+
+.p1 {
+  background-image: url("http://image.noelshack.com/fichiers/2016/08/1456503912-aerial-view-1149248-1920.jpg");
+}
+
+.p2 {
+  background-image: url("http://image.noelshack.com/fichiers/2016/08/1456693535-office-1081807-1920.jpg");
+}
+
+.p3 {
+  background-image: url("http://image.noelshack.com/fichiers/2016/08/1456693539-sky-690293-1920.jpg");
+}
+
+.p4 {
+  background-image: url("http://image.noelshack.com/fichiers/2016/08/1456576960-pexels-photo-25516.jpg");
+}
+
+.p5 {
+  background-image: url("http://image.noelshack.com/fichiers/2016/08/1456576971-pexels-photo-1.jpg");
+}
+
+.p6 {
+  background-image: url("https://static.pexels.com/photos/30185/pexels-photo-large.jpg");
+}
+
+
+/* IMAGES END */
+
+
+/* PORTFOLIO END */
+
+/* SOMETHING START */
+
+#something {
+  padding:60px;
+}
+
+/* SOMETHING END */
+
+
+/* CONTACT START */
+
+#contact .container-fluid {
+  height: auto;
+}
+
+
+/* FORMULAIRE START */
+
+.formulaire {
+  height: 800px;
+  background: url("https://static.pexels.com/photos/26740/pexels-photo-26740.jpg") center center;
+  background-size: cover;
+  padding: 0;
+}
+
+.formulaire {
+  color: #ecf0f1;
+}
+
+#contact h3 {
+  padding-bottom: 10px;
+}
+
+#contact p {
+  padding-bottom: 50px;
+}
+
+form {
+  text-align: center;
+}
+
+.fondu {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  padding-top: 50px;
+}
+
+.mdl-textfield {
+  width: 35%;
+  color: #ecf0f1;
+  margin-bottom: 10px;
+}
+
+.message {
+  width: 70%;
+}
+
+.mdl-textfield__label:after {
+  background-color: #80D8FF;
+}
+
+.mdl-textfield--floating-label.is-dirty .mdl-textfield__label,
+.mdl-textfield--floating-label.is-focused .mdl-textfield__label {
+  color: #80D8FF;
+}
+
+.mdl-textfield--floating-label .mdl-textfield__label {
+  color: #ecf0f1;
+}
+
+.mdl-textfield__error {
+  color: #FF4456;
+  font-size: 14px;
+}
+
+label {
+  margin-bottom: 0px;
+}
+
+.mdl-textfield__input {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.button {
+  padding-top: 20px;
+}
+
+.mdl-button {
+  color: #ecf0f1;
+  border: 1px solid #ecf0f1;
+  padding: 0 20px;
+}
+
+
+/* FORMULAIRE END */
+
+
+/* MAP START */
+
+#map {
+  height: 100%;
+}
+
+.map {
+  padding: 0;
+  height: 100%;
+}
+
+
+/* MAP END */
+
+
+/* CONTACT END */
+
+
+/* FOOTER START */
+
+footer {
+  height: 100%;
+  background-image: linear-gradient(to left top, #123b4c, #162329);
+  color: #ecf0f1;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 50px
+}
+
+.footer-top {
+  padding-bottom: 30px;
+}
+
+.footer-top li {
+  list-style-type: none;
+  padding-bottom: 15px;
+}
+
+.footer-bot {
+  background-color: #1B1B1B;
+  padding: 20px;
+}
+
+/* FOOTER END */
+
+.footer-brand {
+  font-size: 24px;
+  font-family: 'Pacifico', cursive;
+}
+
+.footer-nav {
+  text-align: left;
+}
+
+.footer-nav li {
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+.footer-nav a {
+  color:#ecf0f1;
+  text-transform:uppercase;
+  letter-spacing: 0.2em;
+  border-bottom: 0px solid rgba(0, 0, 0, 0);
+}
+
+.footer-nav a:hover {
+  -moz-transition: border-bottom 300ms ease-in;
+  -o-transition: border-bottom 300ms ease-in;
+  -webkit-transition: border-bottom 300ms ease-in;
+  transition: border-bottom 300ms ease-in;
+  border-bottom: 1px solid #ff5d3f;
+  display: block;
+  text-decoration:none;
+  margin:auto;
+  margin-bottom:-1px;
+}
+
+
+
+.footer-info {
+  text-align: left;
+}
+
+
+/* SOCIAL BUTTON START */
+
+footer .footer-social .card-container {
+  display: inline-flex;
+  padding: 0 5px 0 5px;
+}
+
+.card {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3), 0 17px 17px 0 rgba(0, 0, 0, 0.15);
+  transition: all 0.6s ease;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  border-radius: 50%;
+}
+
+.front,
+.back {
+  position: absolute;
+  background: #7FC6A4;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  color: #ecf0f1;
+}
+
+.front {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.card-container:hover .card {
+  transform: rotateY(180deg);
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+
+/* SOCIAL BUTTON END */
